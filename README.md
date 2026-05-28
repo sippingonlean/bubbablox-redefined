@@ -26,6 +26,15 @@ this guide will be mostly a mix of the original one, and some things i added or 
 - a 10 character long domain that supports both HTTP and HTTPS
 - knowledge on how things like this work (you should have at least some experience with websites and coding to be able to host this. it's really not hard to set up if you know what you're doing.)
 
+## VPS Providers
+- [Datalix](https://datalix.eu), This is the most reliable VPS Provider
+
+## Cloudflared Setup
+- After downloading Cloudflared with the link on *things you need* you Open a new Command Prompt *run as administrator* and paste in ```cloudflared tunnel login``` select the domain you are going to use
+- Next create the tunnel by running this command on the same terminal ```cloudflared tunnel create example``` *make sure you replace example with whatever u want ur tunnel name to be*
+- Next, Route traffic to Localhost by running ```cloudflared tunnel route dns example your.domain``` *replace your.domain with the actual domain you are using*
+  
+
 ## database
 
 - open Command Prompt, and use CD to go into your PostgreSQL folder. it should be at ```C:\Program Files\PostgreSQL\(your postgres version, if you followed the guide it will be 13)\bin```
