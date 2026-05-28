@@ -5,9 +5,9 @@
     </p>
 </div>
 
-this guide will be mostly a mix of the original one, and some things i added or use [BubbaBlox Autodeployer], (https://github.com/sippingonlean/qrev-autodeployer) to do the steps for you.
+this guide will be mostly a mix of the original one, and some things i added or use [BubbaBlox Autodeployer](https://github.com/sippingonlean/qrev-autodeployer) to do the steps for you.
 
-(original guide by <a href="https://github.com/SrCookie450">SrCookie450</a>, changed and site fixed by <a href="https://github.com/harryzawg">harryzawg</a>)
+(original guide by <a href="https://github.com/SrCookie450">SrCookie450</a>, changed and site fixed by <a href="https://github.com/harryzawg">harryzawg</a> & <a href="https://github.com/sippingonlean">gaze</a>)
 
 ## things you need
 
