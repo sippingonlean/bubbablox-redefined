@@ -20,14 +20,17 @@ this guide will be mostly a mix of the original one, and some things i added or 
 - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20), *patching rcc and clients*
 - [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user), *for changing random shit on the source code*
 - [Cloudflared](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi), *to host site if ur on cloudflare*
+- [FFmpeg](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z), *for audios to work*
 
 ## requirements
 - at least Windows 10, Linux is untested as my server is a Windows machine. You should use Wine to run everything if you are using linux (or if running a Debian vps, you can use Proxmox and run a windows VM.)
 - a 10 character long domain that supports both HTTP and HTTPS
 - knowledge on how things like this work (you should have at least some experience with websites and coding to be able to host this. it's really not hard to set up if you know what you're doing.)
 
-## VPS Providers
+## Recommended VPS Providers & Site Buying
 - [Datalix](https://datalix.eu), This is the most reliable VPS Provider
+- [Namecheap](https://namecheap.com), For website, make sure you change the nameservers to **Cloudflare's** so it is more easier for setup
+- [Spaceship](https://spaceship.com), Same for Namecheap.
 
 ## Cloudflared Setup
 - After downloading Cloudflared with the link on *things you need* you Open a new Command Prompt *run as administrator* and paste in ```cloudflared tunnel login``` select the domain you are going to use
