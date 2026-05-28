@@ -44,10 +44,7 @@ this guide will be mostly a mix of the original one, and some things i added or 
 
 to:
 
-``` "Postgres": "Host=127.0.0.1; Database=*; Password=your Postgres password; Username=**; Maximum Pool Size=20",```
-
-- ```*``` = the name of the database you want to use, if this is your first time installing, use postgres
-- ```**``` = your postgres username, default is postgres if you didn't set any in the setup
+``` "Postgres": "Host=127.0.0.1; Database=postgres or whatever u used on setup; Password=your Postgres password; Username=postgres or whatever u used on setup; Maximum Pool Size=20",```
 
 - press ```CTRL + H``` and change ```C:\\Users\\Admin\\Desktop\\Revival\\ecsr\\ecsrev-main\\services\\``` to ```C:\\whereever your BubbaBlox folder is\\``` (make sure it's double slashed! so it should look like ```C:\\folder1\\folder2\\```)
 - you should update everything in the appsettings.json file to your configuration.
