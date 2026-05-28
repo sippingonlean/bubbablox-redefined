@@ -1,11 +1,11 @@
 ## please do not contact me on trying to get the source setup. there are many guides on how to and if you read this guide properly you shouldn't need help.
 <div align="center">
     <p>
-      <h1>BubbaBlox</h1>
+      <h1>BubbaBlox Redefined</h1>
     </p>
 </div>
 
-this guide will be mostly a mix of the original one, and some things i added.
+this guide will be mostly a mix of the original one, and some things i added or use [BubbaBlox Autodeployer], (https://github.com/sippingonlean/qrev-autodeployer) to do the steps for you.
 
 (original guide by <a href="https://github.com/SrCookie450">SrCookie450</a>, changed and site fixed by <a href="https://github.com/harryzawg">harryzawg</a>)
 
@@ -17,9 +17,9 @@ this guide will be mostly a mix of the original one, and some things i added.
 - <a href="https://go.dev/dl/go1.20.6.windows-amd64.msi">Go</a>, *for asset validation*
 - <a href="https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe">Python</a>, *for image validation, make sure to add to path in setup!*
 - python packages: fastapi, aiohttp, pydub, uvicorn, python-magic, python-magic-bin==0.4.14, python-multipart, cryptography (pip install packagename to install, this also requires FFMPEG!)
-- [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) *patching rcc and clients*
-- [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) *for changing random shit on the source code*
-- [Cloudflared](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi) *to host site if ur on cloudflare*
+- [HxD],(https://mh-nexus.de/en/downloads.php?product=HxD20) *patching rcc and clients*
+- [Visual Studio Code],(https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) *for changing random shit on the source code*
+- [Cloudflared],(https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi) *to host site if ur on cloudflare*
 
 ## requirements
 - at least Windows 10, Linux is untested as my server is a Windows machine. You should use Wine to run everything if you are using linux (or if running a Debian vps, you can use Proxmox and run a windows VM.)
