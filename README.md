@@ -33,8 +33,8 @@ this guide will be mostly a mix of the original one, and some things i added or 
 - After downloading Cloudflared with the link on *things you need* you Open a new Command Prompt *run as administrator* and paste in ```cloudflared tunnel login``` select the domain you are going to use
 - Next create the tunnel by running this command on the same terminal ```cloudflared tunnel create example``` *make sure you replace example with whatever u want ur tunnel name to be*
 - Next, Route traffic to Localhost by running ```cloudflared tunnel route dns example your.domain``` *replace your.domain with the actual domain you are using*
+- Finally host the tunnel by running ```cloudflared tunnel run --url http://localhost:5000 example``` *replace example with your tunnel name*
   
-
 ## database
 
 - open Command Prompt, and use CD to go into your PostgreSQL folder. it should be at ```C:\Program Files\PostgreSQL\(your postgres version, if you followed the guide it will be 13)\bin```
