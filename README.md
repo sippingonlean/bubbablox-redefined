@@ -38,7 +38,21 @@ this guide will be mostly a mix of the original one, and some things i added or 
 - Next create the tunnel by running this command on the same terminal ```cloudflared tunnel create example``` *make sure you replace example with whatever u want ur tunnel name to be*
 - Next, Route traffic to Localhost by running ```cloudflared tunnel route dns example your.domain``` *replace your.domain with the actual domain you are using*
 - Finally host the tunnel by running ```cloudflared tunnel run --url http://localhost:5000 example``` *replace example with your tunnel name*
-  
+
+cloudflare setup
+ - go to zero trust cloudflare
+ - first add ur domain
+ - then go to quick search and type tunnels
+ - go to Networks > Connectors then create a new tunnel
+ - select cloudflared then name it anything like for example: revivalbubablock
+ - follow the tutorial on how to connect a tunnel
+ - go to the tunnel u just made then go to published application routes
+ - 7 then press add a published application route after that in domain select your domain dont add anything in subdomain, leave path empty, and in service make it http and url localhost press save
+ - go to DNS > Records then delete everything but keep the NS records
+ - then add a record with Type A Name games Content your.vps.ip Proxy status off TTL Auto
+ - after that add a record with Type CNAME Name www Content your.domain Proxy status on TTL Auto
+keep in mind if you see "bad gateway" once finishing. it means cloudflare is getting connected to your website. start runall.bat to see website online
+
 ## database
 
 - open Command Prompt, and use CD to go into your PostgreSQL folder. it should be at ```C:\Program Files\PostgreSQL\(your postgres version, if you followed the guide it will be 13)\bin```
