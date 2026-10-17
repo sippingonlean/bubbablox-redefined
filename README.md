@@ -39,7 +39,7 @@ this guide will be mostly a mix of the original one, and some things i added or 
 - Next, Route traffic to Localhost by running ```cloudflared tunnel route dns example your.domain``` *replace your.domain with the actual domain you are using*
 - Finally host the tunnel by running ```cloudflared tunnel run --url http://localhost:5000 example``` *replace example with your tunnel name*
 
-cloudflare setup
+## Recommended Cloudflare setup
  - go to zero trust cloudflare
  - first add ur domain
  - then go to quick search and type tunnels
