@@ -33,7 +33,7 @@ this guide will be mostly a mix of the original one, and some things i added or 
 - [Spaceship](https://spaceship.com), Same for Namecheap.
 - [Discord Server](https://discord.com), Needed for setting up the webhooks and stuff.
 
-## Cloudflared Setup
+## Cloudflared Setup (you dont need to do this one you can do the other one below this)
 - After downloading Cloudflared with the link on *things you need* you Open a new Command Prompt *run as administrator* and paste in ```cloudflared tunnel login``` select the domain you are going to use
 - Next create the tunnel by running this command on the same terminal ```cloudflared tunnel create example``` *make sure you replace example with whatever u want ur tunnel name to be*
 - Next, Route traffic to Localhost by running ```cloudflared tunnel route dns example your.domain``` *replace your.domain with the actual domain you are using*
