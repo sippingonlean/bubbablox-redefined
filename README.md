@@ -1,7 +1,7 @@
 ## please do not contact me on trying to get the source setup. there are many guides on how to and if you read this guide properly you shouldn't need help.
 <div align="center">
     <p>
-      <h1> BubbaBlox Redefined </h1>
+      # <img src="public/img/bb_logo.png" width="48" alt="BB Logo" /> Bubbablox Redefined
     </p>
 </div>
 
