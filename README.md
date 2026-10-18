@@ -53,6 +53,12 @@ this guide will be mostly a mix of the original one, and some things i added or 
  - after that add a record with Type CNAME Name www Content your.domain Proxy status on TTL Auto
 keep in mind if you see "bad gateway" once finishing. it means cloudflare is getting connected to your website. start runall.bat to see website online
 
+## Vulnerabilities
+
+- go to ```your_revival_path/Roblox/Roblox.Website/Controllers/Internal/Other/AggHunt.cs``` and change the api key there, people can do https://your.domain/game/EggHunt.ashx?apiKey=TopSecretAggHuntKeyDoNOTLEAKPlz&placeId=1&playerId=REPLACE_WITH_USER_ID&eggId=REPLACE_WITH_ASSET_ID and give anything to any user, the place id doesnt matter.
+- go to ```your_revival_path/Roblox/Roblox.Configuration/Class1.cs``` and change the UserAgentBypassSecret, change it to anything random it doesnt matter 
+
+
 ## database
 
 - open Command Prompt, and use CD to go into your PostgreSQL folder. it should be at ```C:\Program Files\PostgreSQL\(your postgres version, if you followed the guide it will be 13)\bin```
