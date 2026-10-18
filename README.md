@@ -1,7 +1,7 @@
 ## please do not contact me on trying to get the source setup. there are many guides on how to and if you read this guide properly you shouldn't need help.
 <div align="center">
     <p>
-      <img src="2016-roblox-main/public/img/bb_logo.png" width="100" alt="BB Logo" />
+      <img src="2016-roblox-main/public/img/bb_logo.png" width="175" alt="BB Logo" />
     </p>
 </div>
 
